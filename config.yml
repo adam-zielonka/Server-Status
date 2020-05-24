@@ -1,0 +1,16 @@
+listen:
+  port: 4000
+
+services:
+- name: Web
+  port: 80
+- name: Web
+  port: 443
+- name: SSH
+  port: 22
+- name: Server Status
+  port: 4000
+  
+hosts:
+  - localhost
+  - 218.108.149.373
