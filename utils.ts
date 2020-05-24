@@ -13,7 +13,7 @@ type Config = {
   hosts: [String]
 }
 
-const parseConfig = (content: string) => parse(content) as Config
+export const parseConfig = (content: string) => parse(content) as Config
 
 const defaultConfig: Config = parseConfig(`
 listen:
